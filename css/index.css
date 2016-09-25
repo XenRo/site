@@ -4,8 +4,8 @@ header {
   background-color:rgba(0,0,0,0.7);
 }
 
-.logo-top-left-top-line {
-  text-decoration:line-through; 
+hr.logo-top-left-top-line {
+  border-top: 1px solid #8c8b8b;
 }
 
 body {
