@@ -5,7 +5,8 @@ header {
 }
 
 hr.logo-top-left-top-line {
-  border-top: 1px solid #000000;
+  border-top: 5px solid #000000;
+  width:2em;
 }
 
 body {
