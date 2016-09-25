@@ -11,3 +11,7 @@ hr.logo-top-left-top-line {
 body {
   background-color:rgba(0,0,0,0.3); 
 }
+
+#heading {
+  background-color:rgba(0,0,0,0.9);
+}
