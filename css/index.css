@@ -3,3 +3,11 @@
   width:50%;
   margin:auto;
 }
+
+img.logo-corner {
+  z-index:1
+}
+
+img.logo-diagonal-right {
+  z-index:2
+}
