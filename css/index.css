@@ -6,13 +6,13 @@
 }
 
 img.logo-corner {
-  position: relative;
+  position: absolute;
 }
 
 img.logo-diagonal-right {
-  position: relative;
+  position: absolute;
 }
 
 img.logo-diagonal-left {
-  position: relative;
+  position: absolute;
 }
