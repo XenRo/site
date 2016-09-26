@@ -6,8 +6,14 @@
 
 img.logo-corner {
   z-index:1
+  position: relative;
 }
 
 img.logo-diagonal-right {
   z-index:2
+  position: relative;
+}
+
+img.logo-diagonl-left {
+  position: relative;
 }
