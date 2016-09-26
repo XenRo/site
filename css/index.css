@@ -2,6 +2,7 @@
   width:80%;
   width:50%;
   margin:auto;
+  position:relative;
 }
 
 img.logo-corner {
@@ -16,7 +17,7 @@ img.logo-diagonal-right {
   display: block;
 }
 
-img.logo-diagonl-left {
+img.logo-diagonal-left {
   position: relative;
   display: block;
 }
