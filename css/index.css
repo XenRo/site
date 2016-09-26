@@ -17,7 +17,7 @@ img.logo-diagonal-left {
   position: absolute;
 }
 
-img.logo-corener-down {
+img.logo-corner-down {
   position: absolute;
   transform: rotate(180deg); 
 }
