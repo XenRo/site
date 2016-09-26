@@ -6,19 +6,13 @@
 }
 
 img.logo-corner {
-  z-index:1;
   position: relative;
-  display: block;
 }
 
 img.logo-diagonal-right {
-  z-index:2;
   position: relative;
-  display: block;
-  top:-200px;
 }
 
 img.logo-diagonal-left {
   position: relative;
-  display: block;
 }
