@@ -5,7 +5,7 @@
   position:relative;
 }
 
-img.logo-corner {
+img.logo-corner-top {
   position: absolute;
 }
 
@@ -15,4 +15,9 @@ img.logo-diagonal-right {
 
 img.logo-diagonal-left {
   position: absolute;
+}
+
+img.logo-corener-down {
+  position: absolute;
+  transform: rotate(360deg); 
 }
