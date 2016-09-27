@@ -1,8 +1,9 @@
 #logo {
-  width:80%;
   width:50%;
   margin:auto;
   position:relative;
+  overflow: hidden;
+  height: 150px;
 }
 
 img.logo-corner-top {
