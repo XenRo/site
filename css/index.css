@@ -2,6 +2,8 @@
   width:50%;
   margin:auto;
   position:relative;
+  background-repeat: repeat-y;
+  background-image: url("https://xenro.github.io/img/logo/header_pattern.gif");
 }
 
 img.logo-corner-top {
