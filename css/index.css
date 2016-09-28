@@ -50,7 +50,7 @@ img.logo-corner-down {
   
 }
 
-.logocorner {
+.logo-corner {
   animation: logocorner 5s linear 1;
 }
 @keyframes logocorner {
