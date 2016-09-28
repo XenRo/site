@@ -49,3 +49,15 @@ img.logo-corner-down {
 @media all and (min-width:0px) and (max-width: 320px) {
   
 }
+
+.logocorner {
+  animation: logocorner 5s linear 1;
+}
+@keyframes logocorner {
+  from {
+stroke:#1a6b69;
+  }
+  to {
+    stroke:aqua;
+  }
+}
