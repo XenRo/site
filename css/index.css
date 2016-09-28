@@ -4,22 +4,6 @@
   position:relative;
 }
 
-img.logo-corner-top {
-  position: absolute;
-}
-
-img.logo-diagonal-right {
-  position: absolute;
-}
-
-img.logo-diagonal-left {
-  position: absolute;
-}
-
-img.logo-corner-down {
-  position: absolute;
-}
-
 #heading {
   background-repeat: repeat;
   background-image: url(https://xenro.github.io/img/logo/header_pattern.gif);
