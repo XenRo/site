@@ -1,7 +1,7 @@
 #logo {
-  width:50%;
-  margin:auto;
+  margin:0 auto;
   position:relative;
+  height: inherit;
 }
 
 #heading {
