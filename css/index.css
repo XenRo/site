@@ -45,3 +45,7 @@ stroke:#1a6b69;
     stroke:aqua;
   }
 }
+
+svg.logo-corner-down, svg.logo-corner-top {
+  position:absolute;
+}
