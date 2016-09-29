@@ -48,4 +48,5 @@ stroke:#1a6b69;
 
 #logo-diagonal-right, #logo-diagonal-left, #logo-corner-top, #logo-corner-down {
   position:absolute;
+  margin:0 auto;
 }
