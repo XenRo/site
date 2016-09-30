@@ -52,3 +52,9 @@ stroke:#1a6b69;
   position:absolute;
   margin:0 auto;
 }
+
+#github-logo {
+  position: absolute;
+  left: -150px;
+  top: 40%;
+}
