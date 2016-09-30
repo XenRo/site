@@ -2,6 +2,8 @@
   margin:0 auto;
   position:relative;
   height: inherit;
+  width: 70%;
+  left: 85px;
 }
 
 #heading {
