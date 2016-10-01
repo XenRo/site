@@ -25,4 +25,12 @@ $(document).on('scroll', function(){
     });
 });
 });
-</script>
+
+//logo-effect
+var Logo = new Vivus('logo-diagonal-right', {
+  duration: 200,
+  type: "oneByOne", 
+  delay: 20
+
+  });
+  Logo.play(1);
