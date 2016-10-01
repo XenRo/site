@@ -41,6 +41,10 @@ var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
 
 //show page only when fully loaded
-$(document).ready(function() {
-  document.getElementById("preloader")[0].style.visibility = "visible";
-});
+    //<![CDATA[
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
