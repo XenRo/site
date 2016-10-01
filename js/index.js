@@ -29,10 +29,12 @@ $(document).on('scroll', function(){
 
 //logo-effect
 var options = {
-  duration: 100, 
-  animTimingFunction: Vivus.EASE
+  duration: 500, 
+  animTimingFunction: Vivus.EASE,
+  start:"autostart"
 };
 
-var vivus = new Vivus('logo-diagonal-right',	options, onComplete);
+var vivus = new Vivus('logo-corner-top', 'logo-corner-down', 'logo-diagonal-right', 'logo-diagonal-left', options, onComplete);
 
 function onComplete() {}
+
