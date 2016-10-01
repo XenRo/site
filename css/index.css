@@ -59,7 +59,7 @@ stroke:#1a6b69;
   top: 40%;
 }
 
-.logo-corner-down {
+#logo-corner-down {
   animation: logo-corner-turning-animation 5s cubic-biezer(.78,-0.34,.03,.95) 1;
 }
 
