@@ -37,7 +37,7 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 5s linear 1;
+  animation: logocorner 5s ease-out 1;
 }
 @keyframes logocorner {
   from {
