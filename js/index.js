@@ -34,7 +34,8 @@ var options = {
   start:"autostart"
 };
 
-var vivus = new Vivus('logo-diagonal-right', options, onComplete);
+var vivus = new Vivus('logo-diagonal-right', options, onComplete, logoElements);
 
 function onComplete() {}
 
+logoElements(document.querySelectorAll("#logo-diagonal-left, #logo-corner-top, #logo-corner-down"));
