@@ -60,7 +60,7 @@ stroke:#1a6b69;
 }
 
 #logo-corner-down {
-  animation: logo-corner-turning-animation 5s cubic-biezer(.78,-0.34,.03,.95) 1;
+  animation: logo-corner-turning-animation 5s cubic-bezier(1, -1.59, 1, 1) 1;
 }
 
 @keyframes logo-corner-turning-animation {
