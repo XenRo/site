@@ -73,3 +73,5 @@ stroke:#1a6b69;
     transform: rotate(0deg);
   }
 }
+
+html { visibility:hidden; }
