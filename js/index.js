@@ -29,7 +29,7 @@ $(document).on('scroll', function(){
 
 //logo-effect
 var options = {
-  duration: 500, 
+  duration: 300, 
   animTimingFunction: Vivus.EASE,
   start:"autostart"
 };
