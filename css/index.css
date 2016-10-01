@@ -37,7 +37,7 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 3s ease-out 1;
+  animation: logocorner 3s cubic-bezier(0.02,0.96,0.03,0.99) 1;
 }
 @keyframes logocorner {
   from {
@@ -60,7 +60,7 @@ stroke:#1a6b69;
 }
 
 #logo-corner-down {
-  animation: logo-corner-turning-animation 3s ease-out;
+  animation: logo-corner-turning-animation 3s cubic-bezier(0.02,0.96,0.03,0.99) 1;
 }
 
 @keyframes logo-corner-turning-animation {
