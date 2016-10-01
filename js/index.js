@@ -35,7 +35,7 @@ var options = {
 };
 
 var vivus = new Vivus('logo-diagonal-right', options, onComplete);
-
-function onComplete() {}
-
 var vivus = new Vivus('logo-diagonal-left', options, onComplete);
+var vivus = new Vivus('logo-corner-top', options, onComplete);
+var vivus = new Vivus('logo-corner-down', options, onComplete);
+function onComplete() {}
