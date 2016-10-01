@@ -58,3 +58,20 @@ stroke:#1a6b69;
   left: -150px;
   top: 40%;
 }
+
+.logo-corner-down {
+  animation: logo-corner-turning-animation 5s cubic-biezer(.78,-0.34,.03,.95) 1;
+}
+
+@keyframes logo-corner-turning-animation {
+  from {
+    top: 20px;
+    left: 50px;
+    transform: rotate(140deg);
+  }
+  to {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+  }
+}
