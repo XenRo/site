@@ -1,3 +1,4 @@
+//content fading effect
 function isScrolledIntoView(elem)
 {
     var docViewTop = $(window).scrollTop();
@@ -27,10 +28,30 @@ $(document).on('scroll', function(){
 });
 
 //logo-effect
-var Logo = new Vivus('logo-diagonal-right', {
-  duration: 200,
-  type: "oneByOne", 
-  delay: 20
-
+var logo-diagonal-right = new Vivus('logo-diagonal-right', {
+  duration: 100,
+  type: "delayed", 
+  animTimingFunction: Vivus.EASE_OUT
   });
-  Logo.play(1);
+  logo-diagonal-right.play(1);
+
+var logo-diagonal-left = new Vivus('logo-diagonal-left', {
+  duration: 100,
+  type: "delayed", 
+  animTimingFunction: Vivus.EASE_OUT
+  });
+  logo-diagonal-left.play(1);
+
+var logo-corner-top = new Vivus('logo-corner-top', {
+  duration: 100,
+  type: "delayed", 
+  animTimingFunction: Vivus.EASE_OUT
+  });
+  logo-corner-top.play(1);
+
+var logo-corner-down = new Vivus('logo-corner-down', {
+  duration: 100,
+  type: "delayed", 
+  animTimingFunction: Vivus.EASE_OUT
+  });
+  logo-corner-down.play(1);
