@@ -42,5 +42,5 @@ function onComplete() {}
 
 //show page only when fully loaded
 $(document).ready(function() {
-  document.getElementsByTagName("html")[0].style.visibility = "visible";
+  document.getElementsById("preloader")[0].style.visibility = "visible";
 });
