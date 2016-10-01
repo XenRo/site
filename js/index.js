@@ -38,4 +38,4 @@ var vivus = new Vivus( options, onComplete, logoElements);
 
 function onComplete() {}
 
-var logoElements = document.querySelector("#logo-corner-down, #logo-corner-top, #logo-diagonal-right, #logo-diagonal-left");
+var logoElements = document.querySelectorAll('#logo-corner-down #logo-corner-top #logo-diagonal-right #logo-diagonal-left');
