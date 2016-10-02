@@ -35,7 +35,7 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 3s cubic-bezier(1,0,0,0.99) 1;
+  animation: logocorner 3s linear 1;
 }
 @keyframes logocorner {
   from {
