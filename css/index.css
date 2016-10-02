@@ -58,7 +58,7 @@ stroke:#1a6b69;
   top: 40%;
 }
 
-#logo-corner-down {
+#logo-corner-down, #logo-corner-top {
   animation: logo-corner-turning-animation 3s cubic-bezier(0,0,1,1) 1;
 }
 
