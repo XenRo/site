@@ -91,7 +91,7 @@ stroke:#1a6b69;
     transform: rotate(0deg);
   }
 }
-#preloader {
+preloader {
   background-color:black;
   width:100%;
   height:100%;
