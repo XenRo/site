@@ -76,6 +76,9 @@ stroke:#1a6b69;
 
 #preloader {
   background-color:black;
+  width:100%;
+  height:100%;
+  overflow:hidden;
 }
 
 .circle { 	
