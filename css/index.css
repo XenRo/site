@@ -181,3 +181,7 @@ preloader {
 body {
     overflow: hidden;
 }
+
+site {
+  visibility:hide;
+}
