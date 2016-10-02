@@ -83,7 +83,7 @@ stroke:#1a6b69;
   from {
     top: 50px;
     left: 60px;
-    transform: rotate(220deg);
+    transform: rotate(-40deg);
   }
   to {
     top: 0px;
@@ -96,6 +96,7 @@ stroke:#1a6b69;
   width:100%;
   height:100%;
   overflow:hidden;
+  margin:auto;
 }
 
 .circle { 	
