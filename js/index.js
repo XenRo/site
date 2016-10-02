@@ -39,10 +39,3 @@ var vivus = new Vivus('logo-diagonal-left', options, onComplete);
 var vivus = new Vivus('logo-corner-top', options, onComplete);
 var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
-
-//show page only when fully loaded
-$("html").load(function() {
-  // When the page has loaded
-  $("site").fadeIn(2000);
-  $("preloader").fadeOut(2000);
-});
