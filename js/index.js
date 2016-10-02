@@ -43,5 +43,6 @@ function onComplete() {}
 //show page only when fully loaded
 $(window).load(function() {
   // When the page has loaded
-  $("html").fadeIn(2000);
+  $("site").fadeIn(2000);
+  $("preloader").fadeOut(2000);
 });
