@@ -58,11 +58,11 @@ stroke:#1a6b69;
   top: 40%;
 }
 
-#logo-corner-down, #logo-corner-top {
-  animation: logo-corner-turning-animation 3s cubic-bezier(0,0,1,1) 1;
+#logo-corner-down {
+  animation: logo-corner-down-turning-animation 3s cubic-bezier(0,0,1,1) 1;
 }
 
-@keyframes logo-corner-turning-animation {
+@keyframes logo-corner-down-turning-animation {
   from {
     top: 50px;
     left: 60px;
@@ -75,6 +75,22 @@ stroke:#1a6b69;
   }
 }
 
+#logo-corner-top {
+    animation: logo-corner-top-turning-animation 3s cubic-bezier(0,0,1,1) 1;
+}
+
+@keyframes logo-corner-top-turning-animation {
+  from {
+    top: 50px;
+    left: 60px;
+    transform: rotate(220deg);
+  }
+  to {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+  }
+}
 #preloader {
   background-color:black;
   width:100%;
