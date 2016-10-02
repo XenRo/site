@@ -41,7 +41,7 @@ var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
 
 //preload-images
-		<!--//--><![CDATA[//><!--
+
 			var images = new Array()
 			function preload() {
 				for (i = 0; i < preload.arguments.length; i++) {
@@ -52,4 +52,4 @@ function onComplete() {}
 			preload(
 				"https://xenro.github.io/img/logo/header_pattern.gif",
 			)
-		//--><!]]>
+
