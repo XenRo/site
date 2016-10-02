@@ -41,7 +41,7 @@ var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
 
 //show page only when fully loaded
-$(window).load(function() {
+$("html").load(function() {
   // When the page has loaded
   $("site").fadeIn(2000);
   $("preloader").fadeOut(2000);
