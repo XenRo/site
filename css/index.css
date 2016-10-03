@@ -35,7 +35,8 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 3s linear 1;
+  animation: logocorner 0.1s linear 1;
+  animation-delay: 300ms;
 }
 @keyframes logocorner {
   from {
@@ -59,7 +60,7 @@ stroke:#1a6b69;
 }
 
 #logo-corner-down {
-  animation: logo-corner-down-turning-animation 3s cubic-bezier(0,0,1,1) 1;
+  animation: logo-corner-down-turning-animation 1s cubic-bezier(0,0,1,1) 1;
 }
 
 @keyframes logo-corner-down-turning-animation {
@@ -76,7 +77,7 @@ stroke:#1a6b69;
 }
 
 #logo-corner-top {
-    animation: logo-corner-top-turning-animation 3s cubic-bezier(0,0,1,1) 1;
+    animation: logo-corner-top-turning-animation 1s cubic-bezier(0,0,1,1) 1;
 }
 
 @keyframes logo-corner-top-turning-animation {
