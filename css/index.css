@@ -35,8 +35,7 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 0.1s linear 1;
-  animation-delay: 3000ms;
+  animation: logocorner 4s linear 1;
 }
 @keyframes logocorner {
   from {
