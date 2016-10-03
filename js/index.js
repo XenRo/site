@@ -40,3 +40,27 @@ var vivus = new Vivus('logo-corner-top', options, onComplete);
 var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
 
+//preload images
+function preloader() {
+	if (document.images) {
+		var img1 = new Image();
+		var img2 = new Image();
+		var img3 = new Image();
+
+		img1.src = "http://xenro.github.io/img/logo/header_pattern.gif";
+	}
+}
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+addLoadEvent(preloader);
