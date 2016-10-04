@@ -62,12 +62,15 @@ stroke:#1a6b69;
   animation: color-change-github 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
+  pointer-events:none;
 }
 @keyframes color-change-github {
   from {
+    pointer-events:none;
     fill:#000000;
   }
   to {
+    pointer-events: visiblePainted;
     fill:aqua;
   }
 }
