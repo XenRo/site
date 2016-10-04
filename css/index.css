@@ -82,8 +82,8 @@ stroke:#1a6b69;
 
 @keyframes logo-corner-top-turning-animation {
   from {
-    top: 50px;
-    left: 50px;
+    top: -50px;
+    left: -50px;
   }
   to {
     top: 0px;
