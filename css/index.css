@@ -35,7 +35,10 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 4s linear 1;
+  animation: logocorner 0.1s linear 1;
+  animation-delay: 5s
+  animation-fill-mode: forwards;
+  stroke:#1a6b69;
 }
 @keyframes logocorner {
   from {
