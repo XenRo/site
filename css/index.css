@@ -36,7 +36,7 @@
 
 .logo-color-animation {
   animation: logocorner 0.1s linear 1;
-  animation-delay: 5s;
+  animation-delay: 4.5s;
   animation-fill-mode: forwards;
   stroke:#1a6b69;
 }
