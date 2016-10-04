@@ -35,12 +35,12 @@
 }
 
 .logo-color-animation {
-  animation: logocorner 0.1s linear 1;
+  animation: color-change 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   stroke:#1a6b69;
 }
-@keyframes logocorner {
+@keyframes color-change {
   from {
 stroke:#1a6b69;
   }
@@ -59,6 +59,20 @@ stroke:#1a6b69;
   position: absolute;
   left: -150px;
   top: 40%;
+  animation: color-change 0.1s linear 1;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes color-change {
+  from {
+    stroke:#000000;
+    fill:#000000;
+  }
+  to {
+    stroke:aqua;
+    fill:aqua;
+  }
+}
 }
 
 #logo-corner-down {
