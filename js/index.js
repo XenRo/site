@@ -47,7 +47,7 @@ function preloader() {
 		var img2 = new Image();
 		var img3 = new Image();
 
-		img1.src = "http://xenro.github.io/img/logo/header_pattern.gif";
+		img1.src = "img/logo/header_pattern.gif";
 	}
 }
 function addLoadEvent(func) {
