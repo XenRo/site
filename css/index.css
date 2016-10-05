@@ -10,30 +10,6 @@
   height: 700px;
 }
 
-@media all and (min-width:801px) and (max-width: 959px) {
-  /* put your css styles in here */
-}
-
-@media all and (min-width:769px) and (max-width: 800px) {
-  /* put your css styles in here */
-}
-
-@media all and (min-width:569px) and (max-width: 768px) {
-  /* put your css styles in here */
-}
-
-@media all and (min-width:481px) and (max-width: 568px) {
-  /* put your css styles in here */
-}
-
-@media all and (min-width:321px) and (max-width: 480px) {
-  /* put your css styles in here */
-}
-
-@media all and (min-width:0px) and (max-width: 320px) {
-  
-}
-
 .logo-color-animation {
   animation: color-change 0.1s linear 1;
   animation-delay: 4.5s;
@@ -59,12 +35,17 @@
   position: absolute;
   left: -150px;
   top: 40%;
-  animation: color-change-github 0.1s linear 1, github-move 4s ease-out 1;
+  animation: color-change-github 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
   padding: 10px;
 }
+
+#github-logo a {
+  animation: github-move 4s ease-out 1;
+}
+
 @keyframes color-change-github {
   from {
     pointer-events:none;
@@ -81,7 +62,7 @@
 
 @keyframes github-move {
   from {
-    left:0px;
+    left:-150px;
   }
   to {
     left:-200px;
