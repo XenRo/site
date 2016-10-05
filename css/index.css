@@ -67,7 +67,6 @@
 }
 @keyframes color-change-github {
   from {
-    left: -150px;
     pointer-events:none;
     fill:#000000;
     filter: none;
