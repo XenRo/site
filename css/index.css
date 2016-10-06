@@ -205,7 +205,7 @@ body {
 }
 
 .icons-left {
-  animation: icon-left-move 5s linear 1;
+  animation: icon-left-move 5s ease 1;
   animation-delay: 4.5s;
   left: -150px;
   top: 40%;
@@ -216,7 +216,7 @@ body {
   from{
   }
   to{
-left:200px;
+left:-200px;
   }
 }
     
