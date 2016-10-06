@@ -32,14 +32,14 @@
 }
 
 #github-logo {
-  animation: color-change-github 0.1s linear 1;
+  animation: github-animation 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
   padding: 10px;
 }
 
-@keyframes color-change-github {
+@keyframes github-animation {
   from {
     pointer-events:none;
     fill:#000000;
@@ -205,12 +205,12 @@ body {
 }
 
 .icons-left {
-  animation: icon-left-move 0.5s ease-in 1;
+  animation: icon-left-move 0.8s ease-in 1;
   animation-delay: 4.5s;
   left: -150px;
   top: 40%;
   position: absolute;
-  animation-fill-mode:forward;
+  animation-fill-mode: forwards;
 }
 
 @keyframes icon-left-move {
