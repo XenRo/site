@@ -205,11 +205,12 @@ body {
 }
 
 .icons-left {
-  animation: icon-left-move 5s ease 1;
+  animation: icon-left-move 5s ease-in 1;
   animation-delay: 4.5s;
   left: -150px;
   top: 40%;
   position: absolute;
+  animation-fill-mode:forward;
 }
 
 @keyframes icon-left-move {
