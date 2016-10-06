@@ -32,18 +32,11 @@
 }
 
 #github-logo {
-  position: absolute;
-  left: -150px;
-  top: 40%;
   animation: color-change-github 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
   padding: 10px;
-}
-
-#github-logo a {
-  animation: github-move 4s ease-out 1;
 }
 
 @keyframes color-change-github {
@@ -59,13 +52,6 @@
   }
 }
 
-@keyframes github-move {
-  from {
-  }
-  to {
-    left:-200px;
-  }
-}
 #logo-corner-down {
   animation: logo-corner-down-turning-animation 4s cubic-bezier(0,0,1,1) 1;
 }
@@ -217,3 +203,20 @@ body {
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
   }
 }
+
+.icons-left {
+  animation: icon-left-move 5s linear 1;
+  animation-delay: 4.5s;
+  left: -150px;
+  top: 40%;
+  position: absolute;
+}
+
+@keyframes icon-left-move {
+  from{
+  }
+  to{
+left:200px;
+  }
+}
+    
