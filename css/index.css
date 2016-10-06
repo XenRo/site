@@ -217,3 +217,14 @@ body {
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
   }
 }
+
+.github-logo .github-hover-text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+.github-logo:hover .github-hover-text {
+visibility:visible;
+}
