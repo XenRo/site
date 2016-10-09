@@ -47,8 +47,8 @@
     filter: none;
   }
   to{
-    height:100px;
-    width:100px;
+    height:140px;
+    width:140px;
     pointer-events: visiblePainted;
     fill:aqua;
     filter:url(#glow);
