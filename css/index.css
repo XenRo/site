@@ -205,7 +205,7 @@ body {
 }
 
 .icons-left {
-  animation: icon-left-move 0.8s ease-in 1;
+  animation: icon-left-move 0.4s ease-in 1;
   animation-delay: 4.5s;
   left: -150px;
   top: 40%;
@@ -221,3 +221,18 @@ left:-200px;
   }
 }
     
+.icons-left svg {
+  animation: icon-grow 0.4s ease-in 1;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes icon-grow {
+  from{
+  }
+  to{
+    height:200px;
+    width:200px;
+  }
+}
+  
