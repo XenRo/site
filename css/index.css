@@ -32,7 +32,7 @@
 }
 
 #github-logo {
-  animation: icon-animation 0.1s linear 1;
+  animation: icon-animation 0.4s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
@@ -47,8 +47,8 @@
     filter: none;
   }
   to{
-    height:140px;
-    width:140px;
+    height:120px;
+    width:120px;
     pointer-events: visiblePainted;
     fill:aqua;
     filter:url(#glow);
