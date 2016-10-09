@@ -47,8 +47,8 @@
     filter: none;
   }
   to{
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
     pointer-events: visiblePainted;
     fill:aqua;
     filter:url(#glow);
@@ -220,6 +220,6 @@ body {
   from{
   }
   to{
-left:-160px;
+left:-200px;
   }
 }
