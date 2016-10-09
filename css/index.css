@@ -11,7 +11,7 @@
 }
 
 .logo-color-animation {
-  animation: color-change 0.1s linear 1;
+  animation: color-change 0.4s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   stroke:#1a6b69;
