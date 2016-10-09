@@ -37,6 +37,7 @@
   animation-fill-mode: forwards;
   pointer-events:none;
   padding: 10px;
+  margin:0 auto;
 }
 
 @keyframes github-animation {
@@ -221,7 +222,7 @@ left:-200px;
   }
 }
     
-.icons-left svg {
+#github-logo {
   animation: icon-grow 0.4s ease-in 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
@@ -231,8 +232,8 @@ left:-200px;
   from{
   }
   to{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
   }
 }
   
