@@ -32,7 +32,7 @@
 }
 
 #github-logo {
-  animation: github-animation 0.1s linear 1;
+  animation: icon-animation 0.1s linear 1;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
@@ -40,13 +40,15 @@
   margin:0 auto;
 }
 
-@keyframes github-animation {
-  from {
+@keyframes icon-animation {
+  from{
     pointer-events:none;
     fill:#000000;
     filter: none;
   }
-  to {
+  to{
+    height:150px;
+    width:150px;
     pointer-events: visiblePainted;
     fill:aqua;
     filter:url(#glow);
@@ -218,22 +220,6 @@ body {
   from{
   }
   to{
-left:-200px;
+left:-160px;
   }
 }
-    
-#github-logo {
-  animation: icon-grow 0.4s ease-in 1;
-  animation-delay: 4.5s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes icon-grow {
-  from{
-  }
-  to{
-    height:150px;
-    width:150px;
-  }
-}
-  
