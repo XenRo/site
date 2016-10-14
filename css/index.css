@@ -49,6 +49,7 @@
   to{
     height:120px;
     width:120px;
+    top:-60px;
     pointer-events: visiblePainted;
     fill:aqua;
     filter:url(#glow);
