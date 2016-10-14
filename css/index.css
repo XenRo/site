@@ -208,7 +208,7 @@ body {
 }
 
 .icons-left {
-  animation: icon-left-move 0.4s ease-in 1;
+  animation: icon-left-move 0.2s ease-in 1;
   animation-delay: 4.5s;
   left: -150px;
   top: 40%;
