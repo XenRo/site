@@ -32,7 +32,7 @@
 }
 
 #github-logo {
-  animation: icon-animation 0.2s ease-in;
+  animation: icon-animation 0.2s cubic-biezer(0,.99,1,1);
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   pointer-events:none;
