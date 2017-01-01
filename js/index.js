@@ -34,9 +34,11 @@ var options = {
   start:"autostart"
 };
 
-var vivus = new Vivus('logo-unfilled', options, onComplete);
+var vivus = new Vivus('logo-diagonal-right', options, onComplete);
+var vivus = new Vivus('logo-diagonal-left', options, onComplete);
+var vivus = new Vivus('logo-corner-top', options, onComplete);
+var vivus = new Vivus('logo-corner-down', options, onComplete);
 function onComplete() {}
-
 //preload images
 function preloader() {
 	if (document.images) {
