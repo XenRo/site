@@ -35,6 +35,7 @@ var options = {
 };
 
 var vivus = new Vivus('logo-unfilled', options, onComplete);
+
 function onComplete() {}
 //preload images
 function preloader() {
